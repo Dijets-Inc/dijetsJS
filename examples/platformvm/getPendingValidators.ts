@@ -1,12 +1,12 @@
-import { Avalanche } from "../../src"
-import { PlatformVMAPI } from "../../src/apis/platformvm"
+import { Dijets } from "../../src"
+import { MethodVMAPI } from "../../src/apis/methodvm"
 
 const ip: string = "localhost"
 const port: number = 9650
 const protocol: string = "http"
 const networkID: number = 1337
-const avalanche: Avalanche = new Avalanche(ip, port, protocol, networkID)
-const pchain: PlatformVMAPI = avalanche.PChain()
+const dijets: Dijets = new Dijets(ip, port, protocol, networkID)
+const mchain: MethodVMAPI = dijets.MChain()
 
 const main = async (): Promise<any> => {
   const subnetID: string = "11111111111111111111111111111111LpoYY"
