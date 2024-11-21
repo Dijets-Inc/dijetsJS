@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://forge.dijets.io/DijetsLogoJS.png?raw=true">
+  <img src="resources/platform-sdk.png?raw=true">
 </div>
 
 ---
@@ -32,7 +32,7 @@ DijetsJS main purpose is to provide developers with an easy to integrate library
 * Build and sign transactions
 * Issue signed transactions to any of the Value Chain, Utility Chain or the Method Chain.
 * Intra-Chain swaps to & fro - the Value Chain<->Method Chain and the Value Chain<->Utility Chain.
-* Add Validators and Delegators by staking DJTX
+* Add Validators and Delegators by staking DJT
 * Test a local node setup
 * Retrieve Dijets network information
 
@@ -225,7 +225,7 @@ const name = "PenXenOleFren";
 const symbol = "PXF";
 
 // The coin's denomination indicates what the basic main unit of an asset is and where its fractional subunit begins from.
-// For Example in Dijets case: 1 DJTX as the base unit has a denomination of 9. The smallest sub-unit of DJTX is a nanoDJTX (nDJTX) at 10^-9 DJTX
+// For Example in Dijets case: 1 DJT as the base unit has a denomination of 9. The smallest sub-unit of DJT is a nanoDJTX (nDJTX) at 10^-9 DJTX
 // NanoDijet = NanoDjtx = 1
 // MicroDijet = MicroDjtx = 1000 * NanoDjtx
 // Boson = 49*MicroDjtx + 463*NanoDjtx
